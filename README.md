@@ -1,42 +1,7 @@
-# Nuxt 3 Minimal Starter
+To reproduce, also clone https://github.com/EmilyFlocc/my-module and yarn link the two (to resolve the need for gitkeys etc)
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Run playground in dev mode, and the list appears as expected.
 
-## Setup
+Run yarn generate and yarn preview, and the list does not appear within the for loop.
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Package structure follows https://nuxtjs.org/docs/configuration-glossary/configuration-components/#library-authors
